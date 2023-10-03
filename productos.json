@@ -1,0 +1,70 @@
+{
+    "productos":[
+        {
+            "id":"01",
+            "nombre": "iPhone 14",
+            "categoría": "Teléfono inteligente",
+            "marca": "Apple",
+            "precio": "1.099 USD",
+            "src": ["media/img/appleIphone14(1).webp", "media/img/appleIphone14(2).webp", "media/img/appleIphone14(3).webp", "media/img/appleIphone14(4).webp"],
+            "valoracion": 4.5,
+            "descripcionCorta": "El iPhone 14 es el último teléfono inteligente de Apple.",
+            "descripcionLarga": "El iPhone 14 es el último teléfono inteligente de Apple, con un diseño renovado, una nueva cámara y un procesador más potente."
+        },
+        {
+            "id":"02",
+            "nombre": "Galaxy S23 Ultra",
+            "categoría": "Teléfono inteligente",
+            "marca": "Samsung",
+            "precio": "1.299 USD",
+            "src": ["media/img/SamsungGalaxyS23Plus(2).webp", "media/img/SamsungGalaxyS23Plus(3).webp", "media/img/SamsungGalaxyS23Plus(4).webp"],
+            "valoracion": 4.8,
+            "descripcionCorta": "El Galaxy S23 Ultra es el buque insignia de Samsung.",
+            "descripcionLarga": "El Galaxy S23 Ultra es el buque insignia de Samsung, con una pantalla grande, una cámara cuádruple y una batería de larga duración."
+        },
+        {
+            "id":"03",
+            "nombre": "MacBook Air M2",
+            "categoría": "Ordenador portátil",
+            "marca": "Apple",
+            "precio": "1.199 USD",
+            "src": ["media/img/AppleMacbookAirM2(1).webp", "media/img/AppleMacbookAirM2(2).webp", "media/img/AppleMacbookAirM2(3).webp"],
+            "valoracion": 4.2,
+            "descripcionCorta": "El MacBook Air M2 es un ordenador portátil ligero y potente.",
+            "descripcionLarga": "El MacBook Air M2 es un ordenador portátil ligero y potente, con el nuevo chip M2 de Apple."
+        },
+        {
+            "id":"04",
+            "nombre": "Dell XPS 13",
+            "categoría": "Ordenador portátil",
+            "marca": "Dell",
+            "precio": "1.499 USD",
+            "src": ["media/img/DellXps13(1).webp", "media/img/DellXps13(2).webp", "media/img/DellXps13(3).webp", "media/img/DellXps13(4).webp" ],
+            "valoracion": 4.7,
+            "descripcionCorta": "El Dell XPS 13 es un ordenador portátil elegante y compacto.",
+            "descripcionLarga": "El Dell XPS 13 es un ordenador portátil elegante y compacto, con una pantalla táctil opcional."
+        },
+        {
+            "id":"05",
+            "nombre": "Google Pixel 7",
+            "categoría": "Teléfono inteligente",
+            "marca": "Google",
+            "precio": "899 USD",
+            "src": ["media/img/GooglePixel7(1).webp", "media/img/GooglePixel7(2).webp", "media/img/GooglePixel7(3).webp"],
+            "valoracion": 4.3,
+            "descripcionCorta": "El Google Pixel 7 es un teléfono inteligente con un diseño simple.",
+            "descripcionLarga": "El Google Pixel 7 es un teléfono inteligente con un diseño simple y una cámara de alta calidad."
+        },
+        {
+            "id":"06",
+            "nombre": "Oppo Find X5 Pro",
+            "categoría": "Teléfono inteligente",
+            "marca": "Oppo",
+            "precio": "1.099 USD",
+            "src": ["media/img/OppoFind(1).webp", "media/img/OppoFind(2).webp"],
+            "valoracion": 4.6,
+            "descripcionCorta": "El Oppo Find X5 Pro es un teléfono inteligente con una pantalla curva.",
+            "descripcionLarga": "El Oppo Find X5 Pro es un teléfono inteligente con una pantalla curva, una cámara Hasselblad y una carga rápida."
+        }
+    ]
+}

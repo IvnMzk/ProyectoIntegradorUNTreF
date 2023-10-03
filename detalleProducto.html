@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Producto seleccionado</title>
+    <!-- BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="headerContainer d-flex justify-content-between align-items-center">
+        <a href="./index.html"><img class="logo" src="./media/logo(2).webp" alt="logo"></a>
+        <div class="searchBar d-flex">
+            <input id="search-input" type="search" id="form1" class="form-control searchBarInput"/>
+            <i class="bi bi-search" id="search-button"></i>
+        </div>
+    </div>
+    <div class="container bg-light" id="container">
+        <div class="detalleContainer d-flex flex-column align-items-center">
+            <div id="nombreProducto"></div>
+            <div class="cardProducto d-flex flex-column">
+                <div id="carouselWithControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <a class="carousel-control-prev keychainify-checked" href="#carouselWithControls" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next keychainify-checked" href="#carouselWithControls" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+                <div id="detalleProducto"></div>
+        </div>
+
+        <div class="btn-container d-flex justify-content-center col-2"><a href="./index.html" class="btn btn-primary">Regresar</a></div>
+
+        <script src="./script/producto.js"></script>
+    </div>
+</body>
+</html>
